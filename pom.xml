@@ -1,5 +1,6 @@
 <project>
 <package>jar</package>
 <version>1.0.0-SNAPSHOT</version>
+<artifact-id>ghub</artifact-id>  
 
 </project>
