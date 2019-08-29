@@ -1,4 +1,4 @@
-node(){
+node('maven-labrl'){
 stage('prep'){
 }
 stage(){
