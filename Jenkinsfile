@@ -1,7 +1,7 @@
 node('maven-label'){
 stage('prep'){
 }
-stage(){
+stage('build'){
 }
 stage(){
 }
