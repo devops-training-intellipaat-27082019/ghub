@@ -20,12 +20,12 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-47-155-snapshots</name>
-        <url>http://ec2-13-127-180-158.ap-south-1.compute.amazonaws.com:8081/artifactory/libs-snapshot</url>
+        <url>http://ip-172-31-47-155.ap-south-1.compute.internal:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
     <repository>
         <id>central</id>
         <name>ip-172-31-47-155-releases</name>
-        <url>http://ec2-13-127-180-158.ap-south-1.compute.amazonaws.com:8081/artifactory/libs-release</url>
+        <url>http://ip-172-31-47-155.ap-south-1.compute.internal:8081/artifactory/libs-release</url>
     </repository>
 </distributionManagement>
 </project>
