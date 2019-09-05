@@ -30,7 +30,7 @@ node('maven-label') {
      my_ref_method "Intellipath"
    }
   stage('my-shared-lib'){
-     sayHello1 "devops"
+     sayHello "devops"
    }
       
 }
