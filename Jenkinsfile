@@ -1,3 +1,7 @@
+def my_ref_method(String name = 'human') {
+  echo "Hello, ${name}."
+  echo "Hello, ${name}."
+} 
 node('maven-label') {
    def mvnHome
    stage('Preparation') { 
@@ -20,4 +24,8 @@ node('maven-label') {
       junit '**/target/surefire-reports/TEST-*.xml'
       archiveArtifacts 'target/*.jar'
    }
+   stage('my-ref-meth'){
+     my_ref_method "Intellipath"
+   }
+      
 }
