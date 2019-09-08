@@ -6,7 +6,7 @@ node('maven-label') {
    def mvnHome
    stage('Preparation') { 
       
-     git branch: "$branch_name", url: 'https://github.com/IP-RandD/ghub.git'
+     git branch: "$branch_name", url: 'https://github.com/devops-training-intellipaat-27082019/ghub.git'
                  
       mvnHome = tool 'maven-3.6.2'
    }
