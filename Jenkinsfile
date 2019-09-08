@@ -1,3 +1,5 @@
+@Library('pipeline-library-demo')_
+
 def my_ref_method(String name = 'human') {
   echo "Hello, ${name}."
   echo "Hello, ${name}."
@@ -26,6 +28,9 @@ node('maven-label') {
    }
    stage('my-ref-meth'){
      my_ref_method "Intellipath"
+   }
+  stage('my-shared-lib'){
+     sayHello "devopsi-"
    }
       
 }
